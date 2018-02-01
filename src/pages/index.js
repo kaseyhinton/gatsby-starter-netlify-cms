@@ -35,8 +35,7 @@ export default class IndexPage extends React.Component {
             .filter(post => post.node.frontmatter.templateKey === "blog-post")
             .map(({ node: post }) => (
               <div
-                className="content"
-                style={{ borderBottom: "2px solid #f1e1cc", padding: "2em 4em" }}
+                className="posts-content"
                 key={post.id}
               >
                 <p>

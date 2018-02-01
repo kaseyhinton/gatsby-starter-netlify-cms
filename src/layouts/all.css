@@ -31,6 +31,7 @@ a,a:hover,a:active,a:visited {
     -webkit-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    user-select: none;
 }
 
 a.outline-button {
@@ -81,4 +82,15 @@ small {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.posts-content {
+    border-bottom: 2px solid #f1e1cc;
+    padding: 2em;
+}
+
+@media(max-width: 736px){
+    .posts-content {
+    padding: 2em 0;
+    }
 }
