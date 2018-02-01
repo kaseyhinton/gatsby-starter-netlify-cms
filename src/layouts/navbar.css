@@ -1,0 +1,26 @@
+
+.navbar {
+    padding: 16px;
+}
+.navbar-brand {
+    color: #e09192;
+    font-size: 22px;
+    width: 138px;
+}
+.navbar-brand a:hover strong {
+    background-color: #8db3bc;
+}
+.navbar-brand strong {
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #e09192;
+    color: #FAEBD7;
+    display: inline-block;
+    padding: 2px 8px;
+}
+
+.navbar-items .navbar-item{
+    padding: 0 8px;
+}

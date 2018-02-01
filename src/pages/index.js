@@ -29,14 +29,14 @@ export default class IndexPage extends React.Component {
         />
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+            <h3 className="has-text-weight-bold is-size-2">Latest Stories</h3>
           </div>
           {posts
             .filter(post => post.node.frontmatter.templateKey === "blog-post")
             .map(({ node: post }) => (
               <div
                 className="content"
-                style={{ border: "1px solid #eaecee", padding: "2em 4em" }}
+                style={{ borderBottom: "2px solid #f1e1cc", padding: "2em 4em" }}
                 key={post.id}
               >
                 <p>
@@ -50,8 +50,10 @@ export default class IndexPage extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button is-small" to={post.frontmatter.path}>
-                    Keep Reading →
+                  <Link className="outline-button" to={post.frontmatter.path}>
+                    check it out <svg viewBox="0 0 24 24">
+                    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+                </svg>
                   </Link>
                 </p>
               </div>
