@@ -1,8 +1,8 @@
 ---
-templateKey: 'product-page'
+templateKey: product-page
 path: /products
 title: Our Coffee
-image: /img/jumbotron.jpg
+image: /img/pexels-photo-247929.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -69,7 +69,7 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+full_image: /img/pexels-photo-247929.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-
@@ -99,3 +99,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
