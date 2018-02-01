@@ -7,6 +7,10 @@ body {
     font-size: 14px;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
 h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: 'Bazar', Helvetica, sans-serif;
@@ -16,7 +20,6 @@ h1,h2,h3,h4,h5,h6 {
 h1,h2 {
     color: #e09192;
 }
-
 
 a,a:hover,a:active,a:visited {
     font-family: 'Bazar', Helvetica, sans-serif;
@@ -62,3 +65,20 @@ small {
     color: #757575;
 }
 
+.container {
+    max-width: 80rem;
+}
+
+.full-width-image-container {
+  width: 100vw;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 5em -50vw;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

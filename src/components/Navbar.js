@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Navbar = () => (
-    <div className="navbar flex-auto layout horizontal center">
+    <div className="navbar container flex-auto layout horizontal center">
       <div className="navbar-brand layout flex-auto">
         <Link to="/" className="navbar-item">
           <strong>Cookie</strong> Mama
