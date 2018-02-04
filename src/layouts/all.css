@@ -89,8 +89,24 @@ small {
     padding: 2em;
 }
 
+.section {
+    padding: 2rem 0;
+}
+
+blockquote, dl, figure, form, ol, p, pre, table, ul {
+    margin-bottom: 3.5rem;
+}
+
+.content {
+    margin-top: 4rem;
+}
+
 @media(max-width: 736px){
     .posts-content {
-    padding: 2em 0;
+        padding: 2em 0;
+    }
+
+    .section {
+        padding: 2rem 0;
     }
 }

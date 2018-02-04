@@ -5,7 +5,7 @@ title: Making sense of life
 date: 2016-12-17T15:04:10.000Z
 description: Drink More Coffee
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/pexels-photo-247929.jpg)
 
 Coffee is the the best
 
