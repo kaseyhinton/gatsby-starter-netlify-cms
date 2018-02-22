@@ -4,11 +4,12 @@
 
 body {
     font-family: 'Merriweather Sans', sans-serif;    background-color: #FAEBD7;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h1 {
     font-size: 4rem;
+    font-size: 36px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -86,7 +87,10 @@ small {
 
 .posts-content {
     border-bottom: 2px solid #f1e1cc;
-    padding: 2em;
+    padding: 1rem 0;
+}
+.post-content-date {
+    margin-bottom: 4px;
 }
 
 .section {
@@ -94,18 +98,18 @@ small {
 }
 
 blockquote, dl, figure, form, ol, p, pre, table, ul {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .content {
-    margin-top: 4rem;
+    margin-top: 0;
+}
+
+.page-margin-top {
+    margin-top: 50px;
 }
 
 @media(max-width: 736px){
-    .posts-content {
-        padding: 2em 0;
-    }
-
     .section {
         padding: 2rem 0;
     }

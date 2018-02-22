@@ -27,9 +27,10 @@ export default class IndexPage extends React.Component {
           url="https://identity.netlify.com/v1/netlify-identity-widget.js"
           onLoad={() => this.handleScriptLoad()}
         />
-        <div className="container">
+        <div className="container page-margin-top">
           <div className="content">
-            <h3 className="has-text-weight-bold is-size-2">Latest Stories</h3>
+            <h1 style={{marginBottom: 0}}>Cookie Mama</h1>
+            <h6>A Vintage Femme</h6>
           </div>
           {posts
             .filter(post => post.node.frontmatter.templateKey === "blog-post")
@@ -38,13 +39,13 @@ export default class IndexPage extends React.Component {
                 className="posts-content"
                 key={post.id}
               >
-                <p>
+                <div className="post-content-date">
                   <Link className="has-text-primary" to={post.frontmatter.path}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
                   <small>{post.frontmatter.date}</small>
-                </p>
+                </div>
                 <p>
                   {post.excerpt}
                   <br />

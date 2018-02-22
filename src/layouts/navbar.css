@@ -1,11 +1,15 @@
 
 .navbar {
-    padding: 16px;
-    margin-bottom: 2rem;
+    padding: 12px;
+    background-color: #f9f9f9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 .navbar-brand {
     color: #e09192;
-    font-size: 22px;
+    font-size: 16px;
     width: 138px;
 }
 .navbar-brand a:hover strong {

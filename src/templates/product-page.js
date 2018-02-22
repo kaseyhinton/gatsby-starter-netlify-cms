@@ -3,8 +3,7 @@ import graphql from 'graphql';
 
 export const ProductPageTemplate = ({image, title, heading, description}) => (
   <section className="section">
-    <div className="container">
-      <div className="section">
+    <div className="container page-margin-top">
         <h2>
           {title}
         </h2>
@@ -15,7 +14,6 @@ export const ProductPageTemplate = ({image, title, heading, description}) => (
           <h3>{heading}</h3>
           <p>{description}</p>
         </div>
-      </div>
     </div>
   </section>
 );
